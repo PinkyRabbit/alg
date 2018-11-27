@@ -1,7 +1,7 @@
-const random = require('./random');
-const quick = require('./quick');
-const merge = require('./merge');
-const shell = require('./shell');
+const random = require('./sort/random');
+const quick = require('./sort/quick');
+const merge = require('./sort/merge');
+const shell = require('./sort/shell');
 
 const arr = random(10);
 
